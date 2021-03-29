@@ -23,8 +23,13 @@ Plain and simple.
 ---
 
 Usage:
-  Terminal =>   sbt assembly
-                docker build -t _namespace_ .
-                docker run -p 8080:8080 --name _namespace2_ _namespace_ 
+  Terminal =>   
+  
+  sbt assembly
+  
+  docker build -t _namespace_ .
+                
+  docker run -p 8080:8080 --name _namespace2_ _namespace_ 
+                
 
 Route: http://0.0.0.0:8080/date
